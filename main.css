@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  margin-top: 30px;
+}
+
+#array {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.bar {
+  width: 20px;
+  margin: 0 2px;
+  background-color: gray;
+}
+
+.bar.red {
+  background-color: red;
+}
+
+.bar.green {
+  background-color: green;
+}

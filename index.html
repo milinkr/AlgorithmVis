@@ -1,11 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lala</title>
+  <meta charset="UTF-8" />
+  <title>Sorting Visualizer</title>
+  <link rel="stylesheet" href="main.css" />
 </head>
 <body>
-    <p>hello world</p>
+  <div class="container">
+    <h1>Bubble Sort Visualizer</h1>
+    <input id="sizeInput" type="text" placeholder="Количество (1-100)">
+<button id="generateBtn">Сгенерировать массив</button>
+<p id="error" style="color: red;"></p>
+    <button id="startBtn">Старт</button>
+    <div id="array"></div>
+  </div>
+
+  <script src="scripts/script.js"></script>
 </body>
 </html>
